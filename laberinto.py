@@ -14,3 +14,5 @@ def laberinto(dimension, muros):
         laberinto[dimension-1][dimension-1] = "S"
 
         return laberinto
+
+muro = ((0,1), (0,2), (0,3), (0,4), (1,1), (2,1), (2,3), (3,3), (4,0), (4,1), (4,2), (4,3))
