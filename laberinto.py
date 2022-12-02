@@ -5,8 +5,8 @@ def laberinto(dimension, muros):
     for i in range(dimension):
         fila = []
         for j in range(dimension):
-            fila.append(" ")
-            laberinto.append(fila)
+            fila.append('')
+        laberinto.append(fila)
 
     for muro in muros:
         laberinto[muro[0]][muro[1]] = "X"
